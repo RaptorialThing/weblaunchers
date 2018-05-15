@@ -1,24 +1,24 @@
 #!/bin/bash
 
-echo "Merge to RuzalPin \n https://github.com/RuzalPin/Kazan \n site https://ruzalpin.github.io/Kazan/"
+echo -e "Merge to RuzalPin \nhttps://github.com/RuzalPin/Kazan \nsite https://ruzalpin.github.io/Kazan/ "
 
 git add --all
 git commit -m "Initial commit"
 git push -u origin master
 
-echo "Ok...Your changes merged"
+echo -e "Ok...Your changes merged\n"
 
-echo "Open this Kazan site?"
+echo -e "Open this Kazan site?\n"
 
 reply=''
-while ['$reply'=''] do
+
 	echo -n " y/n: "
 	read reply
 
-	if [ -n '$reply'=='y' ]
+	if [  $reply = 'y' ] 
 	then
 		firefox https://ruzalpin.github.io/Kazan/
 
 	fi
-done
+
 
