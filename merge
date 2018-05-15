@@ -11,11 +11,12 @@ echo "Ok...Your changes merged"
 echo "Open this Kazan site?"
 
 reply=''
-while ["$reply"=""]; do
+while ['$reply'=''] do
 	echo -n " y/n: "
 	read reply
 
-	if [ -n "$reply"="y" ]; then
+	if [ -n '$reply'=='y' ]
+	then
 		firefox https://ruzalpin.github.io/Kazan/
 
 	fi
