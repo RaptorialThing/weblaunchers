@@ -17,8 +17,8 @@ reply=''
 
 	if [  $reply = 'y' ] 
 	then
-		firefox https://ruzalpin.github.io/Kazan/
+		firefox -new-window https://ruzalpin.github.io/Kazan/
 
 	fi
-
+echo -e 'update web-page to look changes \n firefox - Ctrl+R'
 
