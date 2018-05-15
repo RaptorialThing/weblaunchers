@@ -4,7 +4,7 @@ echo -e "Merge to RuzalPin \nhttps://github.com/RuzalPin/Kazan \nsite https://ru
 
 git add --all
 git commit -m "Initial commit"
-git push -u origin master
+git push -u origin alternative
 
 echo -e "Ok...Your changes merged\n"
 
