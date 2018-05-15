@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Merge to RuzalPin \n https://github.com/RuzalPin/Kazan \n site https://ruzalpin.github.io/Kazan/"
+
+git add --all
+git commit -m "Initial commit"
+git push -u origin master
+
+echo "Changes merged"
