@@ -1,0 +1,35 @@
+header, section, footer, content,image {
+ display: block; 
+}
+
+h1 {
+	text-align: center;
+}
+
+.content {
+  padding: 10px;
+  height: 450px;
+  position: relative;
+  background: #e7e6d4;
+}
+
+.footer {
+ text-align: center;
+}
+
+.image { 
+  position: absolute; 
+  top: 10px; 
+  height: 500px;
+  left: 920px;
+  padding: 10px;
+}
+
+.text {
+  position: absolute; 
+  top: 10px;
+  width: 800px;
+  height: 500px;
+  text-align: left;
+  padding: 10px;
+}
