@@ -2,13 +2,16 @@ header, section, footer, content,image {
  display: block; 
 }
 
+section {
+ margin-top: 55px;
+}
+
 h1 {
 	text-align: center;
 }
 
 .content {
   padding: 10px;
-  height: 450px;
   position: relative;
   background: #e7e6d4;
 }
